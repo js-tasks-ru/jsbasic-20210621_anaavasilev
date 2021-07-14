@@ -1,3 +1,9 @@
 function factorial(n) {
-  // ваш код...
+  let x = 1;
+  while(n) {
+    x = x * n--;
+  }
+  alert(x);
+  return x;
 }
+factorial(n);
